@@ -1,0 +1,23 @@
+{
+  "name": "@jtopo/editor",
+  "private": true,
+  "version": "2.6.30",
+  "type": "module",
+  "main": "./index.umd.js",
+  "module": "./index.es.js",
+  "types": "./index.d.ts",
+  "dependencies": {
+    "@jtopo/core": "^2.6.30",
+    "@jtopo/extensions": "^2.6.30"
+  },
+  "license": "商业许可",
+  "author": "jitusoft",
+  "description": "javascript topo graph engine",
+  "exports": {
+    ".": {
+      "import": "./index.es.js",
+      "require": "./index.umd.js",
+      "types": "./index.d.ts"
+    }
+  }
+}

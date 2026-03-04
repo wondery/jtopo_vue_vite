@@ -1,14 +1,18 @@
 {
   "name": "my-vue-app",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.2.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 9000 --open",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "jtopo": "file:jtopo_npm",
+    "@jtopo/core": "file:jtopo_npm/core",
+    "@jtopo/editor": "file:jtopo_npm/editor",
+    "@jtopo/extensions": "file:jtopo_npm/extensions",
+    "@types/dat.gui": "^0.7.13",
+    "dat.gui": "^0.7.9",
     "vue": "^3.2.25"
   },
   "devDependencies": {
